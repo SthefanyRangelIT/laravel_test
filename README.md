@@ -9,6 +9,7 @@ In order to test this project, please follow these steps:
 - Execute `composer install`
 - Execute `npm install & npm run dev`
 - Run migrations using `php artisan migrate:fresh --seed`
+- Set app key by executing 'php artisan key:generate'
 - Start MySQL server
 - Start laravel server by using XAMPP or by executing `php artisan serve`
 
